@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #474947;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+    
+}
+
+header img{
+    width: 60px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 1rem;
+    
+}
+
+
+
+nav{
+    background-color:#4c061d;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    color:#fff;
+    text-align: center;
+    padding: .5rem;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: rgba(255, 225,225, 0.2);
+}
+nav .active{
+    background-color: rgba(0,0,0,0.3);
+}
+
+/*-MAIN--------------------------------------------------------------------------------*/
+
+h1{
+    font-size: 20px;
+    border-bottom:1px dotted #474947;
+    text-align: center;
+    margin: .5rem;
+    
+}
+
+.sections{margin: 1rem 2vw;}
+.sections h2{
+    text-align: center;
+    background-color: #6e1622; 
+}
+
+.card{
+    border:1px solid #415541;
+    border-radius: 10px;
+    overflow:hidden;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+.card ul{
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.card li{
+    margin: 1rem;
+}
+.card ul,p{
+    background-color: #fff;
+
+}
+
+.card a{
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #474947;
+    font-size: 15px;
+    transition: font-size 0.2s ease-in-out; 
+    font-weight: normal;
+}
+
+
+.card a:hover{
+    color: #302f35;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+
+
+.card p{
+    margin: 1rem;
+    text-align: center;
+}
+
+
+
+
+/*-Footer--------------------------------------------------------------------------------*/
+
+footer{
+    background-color: #474947;
+    color: #050505;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+footer p{
+    background-color: #474947;
+    color: #fff;
+}
