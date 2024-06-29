@@ -1,0 +1,167 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #042444;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color: #ffff;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+section {
+    flex-basis: calc(50% - 20px); /* Ancho de cada sección */
+    margin-bottom: 20px;
+    border: 2px solid  #1b1b1e;
+    border-radius: 10px;
+    padding: 0px;
+}
+
+section h3 {
+    background-color: #E29F41;
+    color: #3f3c3c;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+}
+
+section p {
+    padding: 10px;
+}
+
+.wireframes{
+    flex-basis: 100%;
+    text-align: center;
+
+}
+
+.wireframes-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.wireframes-images img{
+    margin: 10px;
+}
+
+section:nth-child(1){
+    order: -1;
+}
+
+
+/*cambios en typography*/
+
+.calistoga-font{
+    font-family: "Calistoga Static", sans-serif;
+    font-size:50px;
+    font-weight: bold;
+    color: rgb(82, 77, 77);
+}
+
+.roboto-font {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    color: #505656;
+}
+
+
+/*color schema cambios*/
+
+.color-schema-section p{
+    display: flex;
+    border: 1px  solid  ;
+    border-radius: 5px;
+    padding: 5px ;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: auto;
+    height:auto;
+}
+
+.oxford{
+    background-color: #042444;
+    color:#ffff;
+}
+
+
+.butter{
+    background-color: #E29F41;
+    
+}
+
+.magenta{
+    background-color: #8C274B;
+    color: #ffff;
+}
+
+.blue{
+    background-color: #032140;
+    color: white;
+}
+
+.color-schema-section h4{
+    text-align: center;
+}
+
+
+
+
+
+
+/*cambios en wireframes imagenes centradas*/
+
+.large-screen{
+    background-color: #0e4860;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.large-screen  img{
+    margin: 0px;
+    width: 80%;
+    max-width: 100%;
+}
+
+.mobile-screen{
+    margin-top: 100px;
+}
+
+.mobile-screen img{
+    margin-top: 20px;
+}
+
+
+footer{
+    background-color: #1b1b1e;
+    color: #ffff;
+    display: flex 
+    
+    ;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
