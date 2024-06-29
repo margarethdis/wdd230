@@ -61,7 +61,8 @@ h1{
 .sections{margin: 1rem 2vw;}
 .sections h2{
     text-align: center;
-    background-color: #6e1622; 
+    background-color: #4c061d; 
+    color: #fff;
 }
 
 .card{
