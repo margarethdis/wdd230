@@ -128,3 +128,9 @@ footer p{
     background-color: #474947;
     color: #fff;
 }
+
+footer img {
+    width: 20px; 
+    vertical-align: middle; 
+    margin-left: 5px; 
+}
