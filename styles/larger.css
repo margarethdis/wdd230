@@ -3,8 +3,10 @@
     /*header changes*/
 
     header{
+       display: flex;
        justify-content: center;
        padding: 1rem 2rem; 
+       align-items: center;
         
     
         
@@ -18,15 +20,40 @@
     }
 
     header span{
-        flex-grow: 0; /* Hace que el nombre ocupe todo el espacio disponible */
-        flex-shrink: 0; /* Evita que el nombre se reduzca */
-        text-align: center; /* Centra el texto */
+        flex-grow: 0; 
+        flex-shrink: 0; 
+        text-align: center; 
        
 
     }
-    
 
 
+    /*NAV*/
+    nav {
+        background-color: #4c061d;
+        width: 100%; /* Ocupa todo el ancho disponible */
+    }
+
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center; /* Centra los elementos horizontalmente */
+        padding: 0;
+    }
+
+    nav a {
+        display: inline-block; /* Cambiar de bloque a en línea */
+        padding: .5rem 1rem; /* Ajustar el padding para mantener el ancho deseado */
+        margin: 0 10px; /* Espaciado entre elementos del menú */
+    }
+
+    nav a:hover {
+        background-color: rgba(255, 225, 225, 0.2);
+    }
+
+    nav .active {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
 
 
     /*main*/
