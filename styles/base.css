@@ -5,7 +5,7 @@
 }
 
 header{
-    background-color: #474947;
+    background-color: #fcfffc;
     padding: 1rem;
     display: flex;
     align-items: center;
@@ -23,7 +23,11 @@ header img{
     
 }
 
-
+header span{
+    color: #4c061d;
+    font-weight: bold;
+    font-size: 20px;
+}
 
 nav{
     background-color:#4c061d;
